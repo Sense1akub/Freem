@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:700');
+body {
+background-color: #58C798;
+border: 5px ridge red;
+border-radius: 10px;
+font-family: 'Dosis', sans-serif;
+margin-left: auto;
+margin-right: auto;
+max-width: 1024px;
+min-width: 256px;
+padding-top: 8px;
+padding-bottom: 24px;
+padding-left: 24px;
+padding-right: 24px;
+}
+/* html {
+background: radial-gradient(circle, SkyBlue, SkyBlue 50%, LightCyan 50%, SkyBlue);
+background-size: 8px 8px;
+} */
+html {
+	background: 
+    repeating-linear-gradient(190deg, rgba(255, 0, 0, 0.5) 40px, rgba(255, 153, 0, 0.5) 80px, rgba(255, 255, 0, 0.5) 120px, rgba(0, 255, 0, 0.5) 160px, rgba(0, 0, 255, 0.5) 200px, rgba(75, 0, 130, 0.5) 240px, rgba(238, 130, 238, 0.5) 280px, rgba(255, 0, 0, 0.5) 300px), 
+    repeating-linear-gradient(-190deg, rgba(255, 0, 0, 0.5) 30px, rgba(255, 153, 0, 0.5) 60px, rgba(255, 255, 0, 0.5) 90px, rgba(0, 255, 0, 0.5) 120px, rgba(0, 0, 255, 0.5) 150px, rgba(75, 0, 130, 0.5) 180px, rgba(238, 130, 238, 0.5) 210px, rgba(255, 0, 0, 0.5) 230px), 
+    repeating-linear-gradient(23deg, red 50px, orange 100px, yellow 150px, green 200px, blue 250px, indigo 300px, violet 350px, red 370px);
+  width: auto;
+  max-height: auto;
+  min-height: 1024px;
+}
+h1 {
+color: yellow;
+font-size: 20px;
+}
+h5 {
+color: black;
+font-size: 20px;
+}
+h6 {
+color: yellow;
+font-size: 15px;
+}
+nav ul {
+list-style-type:none;
+background-color:#E60000;
+border: 2px solid red;
+border-radius: 10px;
+padding-top: 12px;
+padding-bottom: 12px;
+}
+nav ul li {
+display:inline;
+border-right: 2px solid #58C798;
+padding-right: 8px;
+padding-left: 8px;
+}
+nav ul li:last-child {
+border-right:none;
+}
+nav ul li a {
+text-decoration: none;
+color: #58C798;
+}
+nav li.selected {
+color: yellow
+}
+ul {
+border: 2px solid green;
+background-color: #00E600;
+border-radius: 10px;
+}	
+p.top-tip {
+border: 4px dashed red;
+border-radius: 10px;
+padding: 16px;
+background-color: yellow;
+color: #58C798; 
+}
+p.top-tip::before {
+color: #58C798;
+content: "TIP: ";
+font-weight: bold;	
+}	
+table {
+font-size:70%;
+}
+th, td {
+}
+th {
+}
+td {
+}
+table {
+font-size:70%;
+width: 100%;
+}
+th, td {
+}
+th {
+}
+td {
+}
+table {
+font-size: 70%
+width: 100%
+}
+th, td {
+border: 1px solid
+#000000;
+}
+th {
+}
+td {
+}
+table {
+font-size: 70%;
+border-collapse:
+collapse;
+width: 100%;
+}
+th, td {
+border: 1px solid
+#000000;
+}
+th {
+}
+td { 
+}
+table {
+font-size: 70%;
+border-collapse:
+collapse;
+width: 100%;
+}
+th, td {
+border: 1px solid
+#000000;
+padding: 8px;
+}
+th }
+}
+td {
+}	
+table {
+font-size: 70%;
+border-collapse:
+collapse;
+width: 100%;
+}
+th, td {
+border: 1px solid
+#000000;
+padding: 8px;
+text-align: left;
+}
+th {
+}
+td {
+}
+table {
+font-size: 70%;
+border-collapse:
+collapse;
+width: 100%;
+}
+th, td {
+border: 1px solid
+#000000;
+padding: 8px;
+text-align: left;
+}
+th {
+background-color:
+#E60000;
+}
+td {
+}
+table {
+font-size: 70%;
+border-collapse:
+collapse;
+width: 100%
+}
+th, td {
+border: 1px solid
+#000000;
+padding: 8px;
+text-align: left;
+}
+th {
+background-color:
+#E60000;
+}
+td {
+background-color:
+yellow;
+}
+nav li a:hover {
+text-decoration: underline;
+}
+a:active {
+color: blue;
+}
+section {
+background-color: orange;
+margin-bottom: 24px;
+min-height: 320px;
+padding-left: 24px;
+padding-right: 24px;
+}
+header {
+background-color: #58C798;
+padding-bottom: 24px;
+}
+img.small {
+float: left;
+height: 100px;
+margin-bottom: 24px;
+margin-right: 24px;
+margin-left: 50px;
+}
+article {
+min-height: auto;
+}
+aside {
+float: right;
+padding-right: 24px;
+width: 34%;
+background-color: orange;
+
+
+}
+aside section {
+	background-color: orange;
+}
+aside section p {
+font-size: 15px;
+}
+aside img.small {
+float: left;
+height: 140px;
+margin-bottom: 24px;
+margin-right: 24px;
+margin-left: 24px;
+}
+section, img, article, aside, footer {
+border: 2px #58C798;
+border-radius: 16px;
+}
+body {
+background-color: #58C798;
+color:#111111;
+font-family: 'Dosis', sans-serif;
+margin-left: auto;
+margin-right: auto;
+max-width: 1054px;
+min-width: 320px;
+padding-left: 24px;
+padding-right: 24px;
+}
+@media all and (min-width: 900px)
+{
+article {
+float: left;
+width: 66%;
+aside {
+float: right; 24px;
+width: 34%;
+}
+footer {
+clear: both;
+}
+}
+
+footer {
+background-color: orange;
+}
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body {
+background-color: #58C798;
+border: 5px ridge red;
+border-radius: 10px;
+font-family: 'Dosis', sans-serif;
+margin-left: auto;
+margin-right: auto;
+max-width: 1024px;
+min-width: 256px;
+padding-top: 8px;
+padding-bottom: 24px;
+padding-left: 24px;
+padding-right: 24px;
+}
+header {
+}
+header p {
+float: left;
+font-size: 16px;
+font-weight: bold;
+margin-top: 0px;
+}
+header h1 {
+font-size: 16px;
+text-align: right;
+}
+nav ul {
+list-style-type: none;
+border-radius: 10px;
+font-weight: bold;
+padding: 16px;
+}
+nav ul {
+list-style-type:none;
+background-color:#E60000;
+border: 2px solid red;
+border-radius: 10px;
+padding-top: 12px;
+padding-bottom: 12px;
+}
+nav ul li {
+display:inline;
+border-right: 2px solid #58C798;
+padding-right: 8px;
+padding-left: 8px;
+}
+nav ul li:last-child {
+border-right:none;
+}
+nav ul li a {
+text-decoration: none;
+color: #58C798;
+}
+nav li.selected {
+color: yellow
+}
+nav ul li a:hover {
+text-decoration: underline;
+}
+section {
+background-color: orange;
+margin-bottom: 24px;
+min-height: 320px;
+padding-left: 24px;
+padding-right:24px;
+}
+aside {
+}
+footer {
+}
+footer p.copyright {
+float: left;
+margin-top: 0px;
+}
+footer p.contact {
+text-align:right;
+}
+@media all and (min-width: 900px) {
+article {
+float: left;
+width: 66%;
+}
+aside {
+float: left;
+padding-left: 24px;
+width: 34%;
+}
+footer {
+clear: both;
+}
+}
